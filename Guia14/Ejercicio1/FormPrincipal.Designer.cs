@@ -42,11 +42,11 @@
             lbCuit = new Label();
             lbNombre = new Label();
             gbDatosPasajero = new GroupBox();
+            tbNroTarjeta = new TextBox();
             btnGenerar = new Button();
             btnResumen = new Button();
             btnSalir = new Button();
             btnEjemplo = new Button();
-            tbNroTarjeta = new TextBox();
             gbDatosPasajero.SuspendLayout();
             SuspendLayout();
             // 
@@ -175,6 +175,13 @@
             gbDatosPasajero.TabStop = false;
             gbDatosPasajero.Text = "Datos Pasajero";
             // 
+            // tbNroTarjeta
+            // 
+            tbNroTarjeta.Location = new Point(76, 123);
+            tbNroTarjeta.Name = "tbNroTarjeta";
+            tbNroTarjeta.Size = new Size(100, 23);
+            tbNroTarjeta.TabIndex = 16;
+            // 
             // btnGenerar
             // 
             btnGenerar.Location = new Point(236, 31);
@@ -210,13 +217,7 @@
             btnEjemplo.TabIndex = 20;
             btnEjemplo.Text = "Ejemplo";
             btnEjemplo.UseVisualStyleBackColor = true;
-            // 
-            // tbNroTarjeta
-            // 
-            tbNroTarjeta.Location = new Point(76, 123);
-            tbNroTarjeta.Name = "tbNroTarjeta";
-            tbNroTarjeta.Size = new Size(100, 23);
-            tbNroTarjeta.TabIndex = 16;
+            btnEjemplo.Click += btnEjemplo_Click;
             // 
             // FormPrincipal
             // 
